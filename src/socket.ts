@@ -11,7 +11,7 @@ export const state: SocketState = reactive({
   }
 })
 
-export const socket = io('http://cuteness.vries.dev/', { upgrade: false, transports: ['websocket'] })
+export const socket = io('https://cuteness.vries.dev/', { upgrade: false, transports: ['websocket'] })
 
 socket.on('connect', () => {
   state.connected = true
