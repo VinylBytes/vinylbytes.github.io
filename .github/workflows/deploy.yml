@@ -12,3 +12,5 @@ jobs:
         username: 'VinylBytes'
         reponame: 'vinylbytes.github.io'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        cname: 'jasper.codes'
+        useyarn: true
